@@ -1,0 +1,89 @@
+/*General*/
+body{
+    height: auto;
+    width: auto;
+    background-color: white;
+    text-align: center;
+    color:black;
+}
+
+/*Header*/
+#logo{
+    width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+/*Search-Section*/
+#search{
+    display: inline-block;
+    background-color: #F0F0F0;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+.search-part{
+margin-top: 0px;
+margin-bottom: 0px;
+
+}
+#search-info{
+    font-family: 'Courier New', Courier, monospace;
+}
+#search-form{
+    background-color: white;
+    width: 50%;
+}
+
+/*Other Option-Section*/
+#options{
+    display: inline-flex;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.main01{
+    flex:2;
+    background-color: #E3F4F4;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.main02{
+    flex:1;
+    background-color: #D2E9E9;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.main03{
+    flex:2;
+    background-color: #C4DFDF;  
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.special-search{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.link{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.main-subclass{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/*Footer*/
+#footer{
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
